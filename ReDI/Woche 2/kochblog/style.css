@@ -1,0 +1,84 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: 1px solid red;
+  background-color: aquamarine;
+}
+
+.h1 {
+  text-align: center;
+  font-weight: lighter;
+  text-transform: uppercase;
+  font-weight: 200px;
+  font-weight: 200;
+  font-size: 24px;
+  color: black;
+  font-family: "Inter Tight", sans-serif;
+}
+
+.hero {
+  background-image: url("https://images.unsplash.com/photo-1495461199391-8c39ab674295?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 20rem;
+  border: 1px solid red;
+}
+.nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 180px;
+}
+
+/* .dish-image {
+  background-color: chocolate;
+  border: 2px;
+  position: absolute;
+  width: 100px;
+  height: 30px;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+  text-align: center;
+} */
+
+.card {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 20rem;
+  /* border-bottom: 1rem;
+  border-top: 25rem;
+  border-color: rgb(21, 231, 133); */
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.pic1 {
+  background-image: url("https://images.unsplash.com/photo-1506280754576-f6fa8a873550?ixlib=rb-1.2.1&ixid=MnwxM%5B%E2%80%A6%5DG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80");
+}
+.pic2 {
+  background-image: url("https://images.unsplash.com/photo-1627207644206-a2040d60ecad?ixlib=rb-1.2.1&ixid=MnwxM%5B%E2%80%A6%5DG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80");
+}
+.pic3 {
+  background-image: url("https://images.unsplash.com/photo-1550304943-4f24f54ddde9?ixlib=rb-1.2.1&ixid=MnwxMjA3%5B%E2%80%A6%5D90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80");
+}
+.pic4 {
+  background-image: url("https://s3-alpha-sig.figma.com/img/58ec/726f/779534ce484ac75eb7db7fc3c66112b7?Expires=1714953600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=drqee-DHBe1SCH7HYtlPcB2wKpYRkyS-yfQZeejNjtTBigETSgVb9~bRvJUCDwAVMms-rMpbf669TM~J8jk6IvVQJgY~HEwuEfKgWcCqJW-GwIegOnLzrebqY8abCcvKE6PRX1UxI7BnZYS2Da8r~oDfv6nbCyKym479DQNsWMyF7dksiqup7uuvg8-RQSX0fyLN4KjBiDK8GFWv6Rmf4exYH4dpGwzeqnHo9VYGaMeevj0e3tUGMEnZRg6Fmy80iGzYswvfiJr0irhKcwdLc4Jcw~SGGEY~LQ1DuKAmcltB7hvgLOV2WmtBX4Ak4MjhFd5EUB-5mAuA0YQtke9tVQ__");
+}
+.p {
+  background-color: coral;
+  width: 4rem;
+  height: 2rem;
+  border: 2px;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+  position: absolute;
+}
+footer {
+  background-color: g;
+}
+a {
+  color: white;
+}

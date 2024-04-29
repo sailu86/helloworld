@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      nav {
+        position: fixed;
+        top: 0;
+      }
+      .main-content {
+        height: 300vh;
+        margin-top: 32px;
+      }
+      .container {
+        width: 200px;
+        height: 32px;
+        border: 1px solid black;
+        /* display: inline-block; */
+      }
+      .container-1 {
+        background-color: cornflowerblue;
+      }
+      .container-2 {
+        background-color: teal;
+        position: relative;
+        height: 100px;
+      }
+      .container-3 {
+        background-color: indianred;
+        /* display: none; */
+        /* visibility: hidden; */
+        position: sticky;
+        top: 32px;
+      }
+      .container-4 {
+        background-color: gray;
+      }
+      .container-5 {
+        position: absolute;
+        top: -10px;
+        right: -10px;
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        z-index: 99;
+        background-color: red;
+      }
+      .another-container {
+        position: relative;
+        width: 200px;
+      }
+    </style>
+  </head>
+  <body>
+    <nav>NavBar</nav>
+    <section class="main-content">
+      <div class="container container-1">Nummer 1 (Header)</div>
+      <div class="container container-2">Nummer 2</div>
+      <div class="container container-3">Nummer 3</div>
+      <div class="another-container">
+        <div class="container container-5">5</div>
+        <div class="container container-4">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat nemo suscipit minus quam, aut ratione, quas molestias, sapiente illum totam ducimus! Sunt dolores asperiores pariatur, eius officiis ratione earum omnis.
+        Aliquam, tenetur. Laboriosam reiciendis officia magni in at aliquid! Libero sed enim illo repellendus dolores commodi ipsam quisquam id ab eaque tempore atque autem porro pariatur labore, odio quasi culpa.</div>
+      </div>
+    </section>
+  </body>
+</html>
